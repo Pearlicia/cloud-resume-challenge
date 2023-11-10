@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: #c4c4c4;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.wrapper{
+    height: 100%;
+	width: 1200px;
+	margin: 50px auto;
+	background: #fff;
+	padding: 10px;
+}
+
+  
+.namerole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 5px;
+	letter-spacing: 4px;
+}
+
+.role {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+  
+.emailphone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.phone{
+    letter-spacing: 1px;
+}
+
+.email{
+    margin-left: 8px;
+    letter-spacing: 1px;
+
+}
+
+  
+.gitlinkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.github{
+
+}
+
+.gittext{
+    letter-spacing: 1px;
+
+}
+
+.linkedin{
+    margin-left: 8px;
+}
+
+.linktext{
+    letter-spacing: 1px;
+
+}
+
+.general{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.summary{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 17px;
+    color: blue;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.sumtext{
+    letter-spacing: 0.5px;
+
+}
+
+.skills{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 17px;
+    color: blue;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+}
+
+.languages-title{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(5, 5, 5);
+    font-size: 17px;
+
+}
+
+.languagesp{
+    color: rgb(3, 3, 3);
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+
+}
+
+.skills-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.company-role{
+    letter-spacing: 0.5px;
+    color: blue;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.profexp{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 17px;
+    color: blue;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.work-exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sellani{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.date{
+    margin-right: -5x;
+}
+
+.ul-desc-li-first{
+    margin-left: 50px;
+
+}
+
+.ul-desc-li-second{
+    margin-left: 50px;
+}
+
+.institute{
+    display: flex;
+    flex-direction: row;
+}
+
+.institution{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.institute-deg{
+    margin-left: 8px;
+}
